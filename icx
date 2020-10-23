@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Landing Page ICX</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+   .h1 {
+font-family: Mitr;
+font-style: normal;
+font-weight: 600;
+font-size: 30px;
+line-height: 36px;
+color: #000578;
+   }
+
+.h2 {
+font-family: Mitr;
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 29px;
+color: #000578;
+   }
+
+.h3 {
+font-size: 14px;
+font-weight: 500;
+color: #646363;
+}
+
+.container {
+padding: 60px 130px 60px 130px;
+}
+
+.arrow {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 219px;
+  height: 73px;
+}
+
+@media only screen and (max-width: 600px) {
+  .arrow {
+    display: none;
+  }
+}
+
+
+.divisor {
+  border-top: 2px solid #009FE3;
+  margin: 10px 130px 5px 130px;
+}
+
+.firstrow {
+border-bottom-right-radius: 80px;
+border-bottom-left-radius: 80px;
+ background-image: url("img.jpg");
+}
+
+.footer {
+padding: 10px 130px 5px 130px;
+}
+
+.footer-link {
+text-align: right;
+}
+
+  </style>
+</head>
+
+
+
+<body>
+<div class="firstrow" style="background-color: #00CCFF; min-height:660px;">
+<div class="container">
+	<div class="row">
+		<div class="col-sm-4 align-items-center">
+			<img src="logo.png" alt="logo">
+			<h1>Otimizando processos para aumentar a lucratividade 5 dicas da IXC Soft</h1>
+			<p class="text" style="font-family: Muli; font-size: 16px; line-height: 19px; color: white;">Você pode estar se perguntando qual a importância da otimização de processos para o seu provedor. Preencha o formulário e tenha acesso a algumas ações que podem melhorar o seu ambiente profissional, proporcionando melhores condições de trabalho, lucratividade e fidelização de clientes.</p>
+		</div>
+
+ 		<div class="col-sm-8">
+		<img src="ilustra.png" alt="ilustra">
+		</div>
+	</div>
+</div>
+</div>
+
+<div class="arrow">
+<img src="img/logo.svg" alt="Logo" />
+<i class="fas fa-arrow-down"></i>
+</div>
+
+<div class="secondrow">
+<div class="container">
+	<div class="row align-items-center">
+		<div class="col-sm-6">
+			<h2>Preencha o formulário e receba nossas dicas</h2>
+			<p class="text" style="font-family: Muli; font-size: 16px; line-height: 24px; color: #646363;">Com as nossas dicas sua empresa vai melhorar os processos internos e ser mais assertiva.</p>
+			<img src="ilustra.png" alt="ilustra">
+		</div>
+	</div>
+
+ 		<div class="col-sm-6">
+ 		<!-- Formulario -->
+		<div class="form">
+		</div>
+	</div>
+</div>
+</div>
+
+<div class="divisor"></div>
+
+<div class="thirdrow">   
+<div class="container"> 
+  <div class="row">
+    <div class="col-sm-3">
+    <img src="logo.png" alt="logo">
+    </div>
+
+    <div class="col-sm-3"> 
+      <h3>Contate-nos</h3>
+      <p class="text" style="font-family: Muli; font-size: 14px; line-height: 21px; color: #646363;">Plantão: 23h às 08h | +55 (49) 3344-6001 Telefone: +55 (49) 3199-2580 E-mail: comercial@ixcsoft.com.br</p>    
+    </div>
+
+    <div class="col-sm-3"> 
+      <h3>Endereço</h3>
+      <p class="text" style="font-family: Muli; font-size: 14px; line-height: 21px; color: #646363;">Rua São Domingos 333 - D Bairro: Líder CEP 89805-273 Chapecó - SC</p>
+    </div>
+
+    <div class="col-sm-3"> 
+      <h3>Redes Sociais</h3>
+      <p class="text" style="font-size: 14px; color: #009FE3;">
+      <a href="https://www.linkedin.com/company/ixcsoft/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+      <a href="https://www.facebook.com/IxcSoft/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+      <a href="https://www.instagram.com/ixcsoft/" target="_blank"><i class="fab fa-instagram"></i></a>
+      <a href="https://www.youtube.com/user/ixcsoft" target="_blank"><i class="fab fa-youtube"></i></a>
+      </p>
+    </div>  
+   </div> 
+</div>
+</div>
+
+<div class="footer" style="background-color: #009FE3;">   
+	<div class="row">
+		<div class="col-sm-6">
+		<p class="policy" style="font-size: 14px; color: white;">Política de Privacidade</p>
+		</div>
+
+		<div class="col-sm-6"> 
+		<p class="footer-link" style="font-size: 14px; color: white;">Desenvolvido por: Gatilho</p> 
+</div>   
+	</div>
+</div>
+</body>
+</html>
